@@ -1,0 +1,435 @@
+
+/* COLORS:
+light blue: ##dae5e8;
+light teal: #80e8c075;
+mid teal: #5ccbc0;
+dark teal: #285d6d;
+bright yellow: #FFFB19;
+white: #ffffff;
+light gray: #eee;
+mid gray: #A3A3A3;
+dark gray: #2e2e2e;
+black: #000000;
+
+
+FONTS:
+;
+*/
+
+html {
+	scroll-behavior: smooth;
+	background-color: white;
+}
+
+body {
+
+	/*
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	*/
+	background-image: url("1.png"); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body.projectPage {
+	background-image: none;
+}
+
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 30pt;
+	color: #285d6d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 1.75em;
+	line-height: 1.25em;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 1.75em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 30pt;
+	color: #2e2e2e;
+
+}
+
+
+h3>a {
+	color: #285d6d;
+}
+
+h3>a:hover {
+	color: #285d6d;
+	text-decoration: underline;
+}
+
+h3>a:active {
+	color: #285d6d;
+}
+h3>a:visited {
+	color: #285d6d;
+	text-decoration: none;
+}
+
+
+.download-resume {
+	text-align: right;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 1.75em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.container {
+	margin: auto;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+
+.container .jumbotron {
+	color: #000000;
+	background: none;
+	margin-top: 40px;
+	align-self: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 40px;
+}
+
+.jumbotron > h1 {
+	font-size: 85pt;
+	color: #285d6d;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.jumbotron > p {
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: 400;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+/* Navbar*/
+
+.navbar-default {
+	background: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #eee;
+/*	border-bottom: 3px solid #FFFB19; */
+	border: none;
+	font-size: 1.25em;
+	padding: 3px;
+}
+
+.navbar-default .navbar-brand {
+	color: #285d6d;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #285d6d;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #285d6d;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #285d6d;
+	border-bottom: 1px solid #285d6d;
+}
+
+/* Resume */
+
+
+#resume {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: block;
+	overflow-y: scroll;
+}
+
+/* Projects */
+.project { 
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.center-block {
+	padding: 20px;
+	max-height: 500px;
+	width: auto;
+}
+
+.project-name {
+	border-bottom: 3px solid #285d6d;
+	margin: 10px;
+	padding-bottom: 7px;
+	color: black;
+	background: none;
+}
+
+#wireframing-hdc {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#workflow-hdc {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.left-block {
+	align-content: left;
+	padding: 10px;
+
+}
+
+.right-block {
+	float: right;
+	padding: 10px;
+}
+
+/* Refers to general projects page */
+
+.row-right {
+	margin: 10px 10px 10px 0;
+	padding-right: 20px;
+	text-align: right;
+	max-width: 100%;
+	height: 300px;
+	border-right: 5px solid white;
+}
+
+.row-right:hover {
+	border-right: 5px solid #285d6d;
+}
+
+.row-left {
+	margin: 10px 0 10px 10px;
+	
+	padding-left: 20px;
+	text-align: left;
+	max-width: 100%;
+	height: 300px;
+	border-left: 5px solid white;
+}
+
+.row-left:hover {
+	border-left: 5px solid #285d6d;
+}
+
+#wireframeInt {
+	border: 1px solid black;
+}
+
+#Prototype482 {
+	display: block;
+	margin: 0 auto;
+}
+
+.scenario {
+	background-color: #80e8c075;
+	padding: 20px;
+}
+/*
+.row .project-blurb-right{
+	margin: 20px 10px 20px 10px;
+	padding: 0px 30px 0px 30px;
+	text-align: right;
+	max-width: 100%;
+	max-height: 400px;
+	min-height: 350px;
+	border-right: 5px solid #A3A3A350;
+}
+*/
+
+.project-blurb>p {
+	color: #5ccbc0;
+}
+
+
+.project-blurb>h3 {
+	color: #285d6d;
+}
+
+
+
+.projectType {
+	text-align: center;
+	font-size: 4em;
+	background-color: #ffffff;
+	padding: none;
+	margin: 100px 20px 20px 20px;
+	border-radius: 5px;
+	background: none;
+}
+
+.list-items {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 1.75em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.display-text-box {
+	background-color: none;
+	border-radius: 0;
+	border-left: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	margin-top: 10px;
+	max-width: 100%;
+}
+
+.display-text-box h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+#headshot {
+	border-radius: 5px;
+	padding: 0;
+	margin-right: 0;
+	margin-top: 110px;
+	max-width: 100%;
+}
+
+.thumbnail {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	max-width: 500px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+}
+
+.row img {
+	width: 100%;
+	max-height: auto;
+	border: none;
+	border-radius: 0;
+}
+
+
+.thumbnail>a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail img {
+	max-height: 300px;
+}
+
+
+
+
+.thumbnail h4 {
+	color: #285d6d;
+	font-size: 1.45em; 
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+	border: 1px solid lightgray;
+	padding: 10px;
+	border-radius: 0;
+}
+
+
+
+/* Bottom Nav */
+
+.navbar-bottom {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 15pt;
+    display: block
+    width: 100%;
+}
+
+.navbar-center {
+	color: #5ccbc0;
+}
+
+.far .fa-copyright>p{
+	display: inline-block;
+}
+.copyright {
+	padding: 15px;
+	text-align: center;
+	color: #2e2e2e50;
+}
+
+.specs {
+	text-align: center;
+	background-color: #80e8c075;
+	padding: 20px;
+}
+
+.icon {
+	max-width: 15%;
+	max-height: 10px;
+	padding: 5px;
+}
+
+.projectFooter {
+	max-width: 60%;
+	height: 150px;
+	padding: 5px;
+}
+
+.midLink {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.projectLinks {
+	height: 200px;
+}
+
+.projectLinks>.thumbnail {
+	border-bottom: 3px solid white;
+}
+
+.projectLinks>.thumbnail:hover {
+	border-bottom: 3px solid #285d6d;
+}
